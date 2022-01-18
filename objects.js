@@ -20,3 +20,24 @@ const entreeValue = examObj["an entree"]
 const waterValue = examObj["my side"]
 const milkValue = examObj["the drink"]
 
+
+
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+const nameZero = myDog.name;
+myDog.name = "Sarikanat";
+myDog.legs = 2;
+myDog.tails = 3;
+
+
+myDog.says = "hawhaw";
+
+
+delete myDog.says;
+
+console.log(myDog);
